@@ -1,35 +1,16 @@
  <ion-content [fullscreen]="true">
+    <div>
   <ion-img src="assets/LogoCK.png" class="logo" [routerLink]="['/home']"></ion-img>   
-  <div>
-    <ion-row class="table-row">
-        <ion-col size="1">
-            <ion-button  color="light">
-                <ion-icon name="volume-high-outline"></ion-icon>
-            </ion-button>
-        </ion-col>
-        <ion-col size="2">
-            <ion-checkbox color="warning" class="custom-checkbox" [indeterminate]="true"></ion-checkbox>
-          </ion-col>
-          <ion-col size="2">
-            <ion-checkbox color="danger" class="custom-checkbox" [indeterminate]="true"></ion-checkbox>
-          </ion-col>
-          <ion-col size="2">
-            <ion-checkbox color="primary" class="custom-checkbox" [indeterminate]="true"></ion-checkbox>
-          </ion-col>
-          <ion-col size="2">
-            <ion-checkbox color="success" class="custom-checkbox" [indeterminate]="true"></ion-checkbox>
-          </ion-col>
-    </ion-row>
-  
-  
-  
-      
-      <div class="button-container">
-        <ion-button color="light">Send</ion-button>
-      </div>    
-    </div>
-    
-    <div class="divboton">
-      <button class="button-Home" [routerLink]="['/menu']">Go to Menu 📃</button>
-    </div>
+</div>
+
+<ion-card >
+  <img class="leon"alt="leon" src="https://static.wikia.nocookie.net/floppapedia-revamped/images/5/5f/ActualBingus.jpg" />
+  <ion-card-header>
+    <ion-card-title >What color is the lion?</ion-card-title>
+  </ion-card-header>
+</ion-card>
+
+<div class="divboton">
+  <button class="button-Home" [routerLink]="['/menu']">Go to Menu 📃</button>
+</div>
 </ion-content>
