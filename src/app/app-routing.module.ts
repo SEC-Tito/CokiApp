@@ -31,6 +31,18 @@ const routes: Routes = [
     path: 'animal',
     loadChildren: () => import('./animal/animal.module').then( m => m.AnimalPageModule)
   },
+  {
+    path: 'color2',
+    loadChildren: () => import('./app/color2/color2.module').then( m => m.Color2PageModule)
+  },
+  {
+    path: 'color2',
+    loadChildren: () => import('./color2/color2.module').then( m => m.Color2PageModule)
+  },
+  {
+    path: 'color3',
+    loadChildren: () => import('./color3/color3.module').then( m => m.Color3PageModule)
+  },
 ];
 
 @NgModule({

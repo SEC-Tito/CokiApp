@@ -18,8 +18,6 @@ ion-content {
   z-index: 1;
 }
 .button-Home {
-
-  cursor: pointer;
   padding: 15px 30px 15px 30px;
   border-radius: 10px;
   border-style: double;
@@ -35,17 +33,6 @@ ion-content {
   transition: 400ms;
   
 }
-.divboton{
-  display: flex;
-  justify-content: flex-end;    
-  align-items: center;
-  width: 100%;
-padding-left: 9%; 
-padding-top:15%;
-  
-}
-
-
 .logo {
   position: absolute;
   top: 20px;
@@ -54,17 +41,33 @@ padding-top:15%;
   height: auto;
   z-index: 1;
 }
+.boton1{
+  display: flex; 
 
-.leonXd{
-  text-align: center;
+  width: 20%;
+  left: 5%;
+  margin-top:-5%;
 }
-ion-card{
---background: #000;
-  --color: #9efff0;
-  width: 100px;
-  max-width: 400px; /* Ancho máximo del card */
-  margin: 0 auto; 
+
+.button-container{
+  display: flex;
+  padding-top: 2rem;
 }
-.leon{
-  width:auto ;
+.card1{
+  width: 19% ;
+  margin-top:4% ;
+ 
+}
+.titulo{
+ --background:  gray;
+}
+.ionpadre{
+  width: 73%;
+  height: 97%;
+  margin-left: 25%;
+  margin-top: -35%;
+}
+.ionimg{
+  height:110px;
+  width:220px;
 }

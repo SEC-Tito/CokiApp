@@ -1,14 +1,14 @@
+
 import { Component } from '@angular/core';
 import { AlertController } from '@ionic/angular';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-color',
-  templateUrl: './color.page.html',
-  styleUrls: ['./color.page.scss'],
+  selector: 'app-color2',
+  templateUrl: './color2.page.html',
+  styleUrls: ['./color2.page.scss'],
 })
-export class ColorPage {
-
+export class Color2Page {
   constructor(
     public alertController: AlertController,
     private router: Router
@@ -25,9 +25,9 @@ export class ColorPage {
           cssClass: 'secondary',
         },
         {
-          text: 'Ir a la siguiente actividad ^_^',
+          text: 'Ir a la página de audio',
           handler: () => {
-            this.router.navigateByUrl('/color2');
+            this.router.navigateByUrl('/audio');
           }
         }
       ]
